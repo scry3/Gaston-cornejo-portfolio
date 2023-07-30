@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Gaston Cornejo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--MENU-->
+    <div class="contenedor-header">
+      <header>
+        <div class="logo">
+          <a href="#">Gaston Cornejo</a>
+        </div>
+        <nav id="nav" class="responsive">
+          <ul>
+            <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+            <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+            <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+            <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+            <!-- <li><a href="#contacto">CONTACTO</a></li> -->
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+
+    <!--INICIO-->
+    <section id="inicio" class="inicio">
+      <div class="contenedor-banner">
+        <div class="contenedor-img"></div>
+        <img
+          class="imgRedonda"
+          src="https://i.ibb.co/1sLLN4n/Whats-App-Image-2023-07-28-at-19-01-49.jpg"
+          alt="Whats-App-Image-2023-07-28-at-19-01-49"
+        />
+        <h1>GASTON CORNEJO</h1>
+        <div class="redes">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-solid fa-phone"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!--SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+      <div class="contenido-section">
+        <h2>Sobre mí</h2>
+        <p>
+          <span>Hola, soy Ricardo Gaston Cornejo. </span>Estoy estudiando
+          Programación, actualmente orientado hacia el fullstack, pero mi mayor
+          interés es desarrollarme lo más posible en el backend. Me encuentro en
+          busqueda de trabajo no solo por necesidad sinó también para poder
+          seguir desarrollando mis experiencias laborales y poder participar en
+          un equipo de trabajo, ya sea o no en relacion a la programación.<br />
+          Y así poder sustentar mis proyectos a futuro en el ámbito informático.
+        </p>
+        <div class="fila">
+          <!--datos personales-->
+          <div class="col">
+            <h3>Datos personales</h3>
+            <ul>
+              <li>
+                <strong>Cumpleaños</strong>
+                28-01-2002
+              </li>
+              <li>
+                <strong>Localidad</strong>
+                Argentina > Tierra del fuego > Ushuaia
+              </li>
+              <li>
+                <strong>Telefono</strong>
+                +54 2901 468863
+              </li>
+              <li>
+                <strong>Correo electronico</strong>
+                gastoncornejo2013@gmail.com
+              </li>
+              <li>
+                <strong>Disponibilidad horaria</strong>
+                <span>Full Time</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Intereses</h3>
+            <div class="contenedor-intereses">
+              <div class="intereses">
+                <i class="fa-solid fa-code"></i>
+                <span>PROGRAMAR</span>
+              </div>
+              <div class="intereses">
+                <i class="fa-solid fa-music"></i>
+                <span>MÚSICA</span>
+              </div>
+              <div class="intereses">
+                <i class="fa-solid fa-palette"></i>
+                <span>DIBUJO</span>
+              </div>
+              <div class="intereses">
+                <i class="fa-solid fa-book"></i>
+                <span>LECTURA</span>
+              </div>
+              <div class="intereses">
+                <i class="fa-solid fa-language"></i>
+                <span>IDIOMAS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button><a href="https://pdf.ac/22X8Ml" target="_blank">
+          Descargar CV </a><i class="fa-solid fa-download"></i>
+          <span class="overlay"></span>
+        </button>
+      </div>
+    </section>
+
+    <!--SKILLS-->
+    <section class="skills" id="skills">
+      <div class="contenido-section">
+        <h2>Habilidades</h2>
+        <div class="fila">
+          <!--technical skills-->
+          <div class="col">
+            <h3>Habilidades tecnicas</h3>
+            <div class="skill">
+              <span>JavaScript</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>40%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>HTML</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>CSS</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>65%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Java</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>30%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>SQL</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>5%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--LANGUAGES SKILLS-->
+          <div class="col">
+            <h3>Habilidad en idiomas</h3>
+            <div class="skill">
+              <span>Ingles(escritura)</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>95%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Ingles(habla)</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Ingles(escucha)</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="skill">
+              <span>Portugués(escritura)</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>25%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Portugués(habla)</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>30%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Portugues(escucha)</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>40%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--CURRICULUM-->
+    <section id="curriculum" class="curriculum">
+      <div class="contenedor-section">
+        <h2>Curriculum</h2>
+        <div class="fila">
+          <div class="col izquierda">
+            <h3>Educación</h3>
+            <div class="item izq">
+              <h4>Sociales</h4>
+              <span class="casa">Colegio nacional Ushuaia</span>
+              <span class="fecha">2015-2020</span>
+              <p>
+                Estudios realizados en colegio nacional de Ushuaia
+                Finalizados en ultimo año en José Martí.
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col derecha">
+            <h3>Experiencia Laboral</h3>
+            <div class="item der">
+              <h4>GV Dermoestetica</h4>
+              <span class="casa">Administración</span>
+              <span class="fecha">2016-2020</span>
+              <p>
+                Encargado de recepcion y atencion a clientes en negocio
+                familiar.<br />
+                Manejo de agenda, caja, y Excel.
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Centro Invernal Haruwen</h4>
+              <span class="casa"
+                >Atencion al cliente, mozo, guia de turismo</span
+              >
+              <span class="fecha">2017-2020(En temporadas)</span>
+              <p>
+                Principalmente encargado de atender y ayudar a los clientes en
+                todo lo que necesiten.<br />
+                Guiar a los turistas por el lugar y hacer recorridos, Fue una
+                gran ayuda para mejorar y pulir mi inglés.
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Autocredito</h4>
+              <span class="casa">Productor Asesor Independiente</span>
+              <span class="fecha">02/2020-12/2021</span>
+              <p>
+                Coordinador. Primer trabajo como vendedor y telemarketer.<br />
+                Curso realizado con certificado de (PAOI).<br />
+                Dedicado a asesorar y comerzializar planes de ahorro tanto por
+                llamado y/o presencial, <br />
+                manejo y capacitacion de equipo de personas.
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Royal Prestige</h4>
+              <span class="casa">Asesor en ventas</span>
+              <span class="fecha">2021-2023</span>
+              <p>
+                Coordinacion telefonica y venta presencial de planes de
+                financiacion de banco estadounidense.<br />
+                Realizar capacitaciones para grandes equipos de
+                personas.(Ushuaia-Rio grande)
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<script type="text/javascript" src="code.js"></script>
+  </body>
+</html>

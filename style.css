@@ -324,6 +324,18 @@ html {
   width: 0%;
   animation: 2s css forwards;
 }
+@keyframes python {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 15%;
+  }
+}
+.skills .skill .python {
+  width: 0%;
+  animation: 2s python forwards;
+}
 @keyframes java {
   0% {
     width: 0%;

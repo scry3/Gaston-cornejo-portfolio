@@ -288,6 +288,21 @@ html {
   right: -15px;
   font-size: 14px;
 }
+/*barra de javascript*/
+.skill.javascript .barra-skill .progreso span {
+  background-color: #f0db4f;  
+}
+.skills .skill .javascript {
+  background-color: #f0db4f;
+}
+/*barra de git*/
+.skill.git .barra-skill .progreso span {
+  background-color: #f1502f;  
+}
+.skills .skill .git {
+  background-color: #f1502f;
+}
+
 @keyframes javascript {
   0% {
     width: 0%;
